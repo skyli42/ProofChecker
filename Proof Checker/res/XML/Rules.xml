@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Theorems>
-	<Theorem>
+	<Theorem ch="2" name="VAT" if="intersecting lines" then="congruence" />
+	<Theorem ch="2" name="perp lines=> cong adj angles" if="perp lines" then="congruence"/>
 </Theorems>
