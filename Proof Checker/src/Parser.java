@@ -48,20 +48,16 @@ public class Parser {
 		//get the root element
 		Element docEle = dom.getDocumentElement();
 
-		//get a nodelist of elements
+
 		
-		NodeList nl = docEle.getElementsByTagName("Employee");
+		NodeList nl = docEle.getElementsByTagName("Theorem");
 		if(nl != null && nl.getLength() > 0) {
 			for(int i = 0 ; i < nl.getLength();i++) {
 
-				//get the employee element
 				Element el = (Element)nl.item(i);
 
-				//get the Employee object
-				//Employee e = getEmployee(el);
+				//THIS IS NOT FINISHED!!!//
 
-				//add it to list
-				//myEmpls.add(e);
 			}
 		}
 		return ruleList;
