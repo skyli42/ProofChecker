@@ -1,0 +1,16 @@
+import java.util.*;
+public class Line {
+	String id;
+	Pt[]endpts=new Pt[2]; //Points defining line
+	ArrayList<Line>pareelel;
+	public Line(Pt one, Pt two){
+		id=one.id+two.id;
+		endpts[0]=one;
+		endpts[1]=two;
+		pareelel=new ArrayList<Line>();
+	}
+	public void addPareelel(Line o){
+		o.pareelel.add(this);
+		this.pareelel.add(o);
+	}
+}

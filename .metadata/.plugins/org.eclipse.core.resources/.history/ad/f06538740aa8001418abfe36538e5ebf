@@ -1,0 +1,7 @@
+public class Point {
+	String id;
+	ArrayList<Point>
+	Point(String id){
+		this.id=id;
+	}
+}

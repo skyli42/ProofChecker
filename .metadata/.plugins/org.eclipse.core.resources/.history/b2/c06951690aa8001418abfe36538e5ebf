@@ -1,0 +1,6 @@
+public class Point {
+	String id;
+	Point(String id){
+		this.id=id;
+	}
+}

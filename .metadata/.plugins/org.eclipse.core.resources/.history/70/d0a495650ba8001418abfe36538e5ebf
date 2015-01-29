@@ -1,0 +1,14 @@
+import java.util.*;
+public class Pt {
+	String id;
+	ArrayList<Pt>collinear; //points this is collinear with
+	Pt(String id){
+		this.id=id;
+		collinear=new ArrayList<Point>();
+	}
+	public void addCollinear(Point other){
+		other.collinear.add(this);
+		this.collinear.add(other);
+		//Yay! It lines up!
+	}
+}

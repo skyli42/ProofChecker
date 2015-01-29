@@ -1,0 +1,21 @@
+import java.util.*;
+public class Line { //really a line segment class
+	String id;
+	Integer length; //Can be null for infinity
+	Pt[]endpts=new Pt[2]; //Points defining line
+	ArrayList<Line>pareelel;
+	public Line(Pt one, Pt two, Integer length){
+		id=one.id+two.id;
+		endpts[0]=one;
+		endpts[1]=two;
+		this.length=length;
+		pareelel=new ArrayList<Line>();
+	}
+	public void addPareelel(Line o){
+		o.pareelel.add(this);
+		this.pareelel.add(o);
+	}
+	public boolean isEqualTo(Line o){
+		return this.length==o.length;
+	}
+}

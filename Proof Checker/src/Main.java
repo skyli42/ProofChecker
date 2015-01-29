@@ -1,8 +1,10 @@
-
 public class Main {
-	
 	public static void main(String[] args) {
 		GUI gui = new GUI(500,300);
+//		Pt a=new Pt("A"), b=new Pt("B"), c=new Pt("C"), d=new Pt("d"); //for testing
+//		Line line=new Line(a, b, 10);
+//		Line line2=new Line(c, d, 20);
+//		System.out.println(line.id);
+//		System.out.println(line.isEqualTo(line2));
 	}
-	
 }

@@ -1,0 +1,8 @@
+import java.util.*;
+public class Line {
+	String id;
+	Pt[]endpts=new Pt[2]; //Points defining line
+	Line(Pt one, Pt two){
+		id=one+two;
+	}
+}

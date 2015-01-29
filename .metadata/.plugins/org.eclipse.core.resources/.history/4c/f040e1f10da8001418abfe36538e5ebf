@@ -1,0 +1,7 @@
+public class Main {
+	public static void main(String[] args) {
+		GUI gui = new GUI(500,300);
+		Pt a=new Pt("A"), b=new Pt("B");
+		Line line=new Line(a, b, )
+	}
+}

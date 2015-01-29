@@ -1,0 +1,10 @@
+import java.util.*;
+public class Point {
+	String id;
+	ArrayList<Point>collinear;
+	Point(String id){
+		this.id=id;
+		collinear=new ArrayList<Point>();
+	}
+	
+}
